@@ -1,0 +1,28 @@
+{
+  "name": "study-koa-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "node ./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "ejs": "^3.1.8",
+    "execa": "^6.1.0",
+    "inquirer": "^9.1.0",
+    "prettier": "^2.7.1"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2"
+  }
+}
