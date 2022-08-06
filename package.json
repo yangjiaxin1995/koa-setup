@@ -10,6 +10,7 @@
   ],
   "type": "module",
   "scripts": {
+    "start": "npm exec study-koa-setup",
     "test": "node ./bin/index.js"
   },
   "keywords": [],
