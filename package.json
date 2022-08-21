@@ -1,5 +1,5 @@
 {
-  "name": "study-koa-setup",
+  "name": "koa-setup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   ],
   "type": "module",
   "scripts": {
-    "start": "npm exec study-koa-setup",
+    "start": "pnpm exec koa-setup",
     "test": "node ./bin/index.js"
   },
   "keywords": [],

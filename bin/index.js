@@ -29,7 +29,7 @@ fs.writeFileSync(
 
 // 4.安装依赖
 console.log(chalk.cyanBright(`安装依赖`));
-execa('yarn', {
+execa('pnpm i', {
   cwd: getRootPath(),
 }).stdout.pipe(process.stdout);
 
